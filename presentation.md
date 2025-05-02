@@ -29,23 +29,24 @@ VSCode/Jetbrains + GitHub Copilot
 
 - [环境配置与代码编辑器介绍](#3)
 - [为什么要重视AI辅助编程](#5)
-- [AI辅助编程方法论](#6)
-- [AI编程工具对比](#8)
-- [为什么选择GitHub Copilot](#10)
-- [如何选择AI模型](#11)
-- [GitHub Copilot功能详解](#12)
-- [项目实战经验分享](#13)
-- [拓展内容：MCP服务器](#19)
+- [AI编程方法论](#7)
+- [AI编程工具对比与选择](#10)
+- [如何选择AI模型](#14)
+- [GitHub Copilot功能详解](#15)
+- [项目实战经验分享](#16)
+- [拓展内容：MCP服务器](#22)
 
 ## 1. 环境配置与代码编辑器介绍
 
-<!-- _class: trans -->
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** **环境配置** *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
 ## 1. 环境配置与代码编辑器介绍
 
-<!-- _class: cols-2-73 -->
+<!-- _class: cols-2-73 navbar -->
+<!-- _header: \ ***@AI辅助编程*** **环境配置** *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 <div class=ldiv>
 
 #### 环境配置
@@ -75,13 +76,15 @@ choco install vscode git python3 mingw nodejs
 
 ## 2. 为什么要重视AI辅助编程
 
-<!-- _class: trans -->
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* **重要意义** *方法论* *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
 ## 2. 为什么要重视AI辅助编程
 
-<!-- _class: fixedtitleA -->
+<!-- _class: fixedtitleA navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* **重要意义** *方法论* *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 
 
 <!-- _class: cols-2-64 -->
@@ -103,7 +106,8 @@ choco install vscode git python3 mingw nodejs
 
 ## 2. 为什么要重视AI辅助编程
 
-<!-- class: -->
+<!-- _class: navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* **重要意义** *方法论* *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 
 - 在可预见的未来，AI性能会不断提升，学会用AI辅助编程会是一项必需技能，即使对专业与计算机相关专业无关的人们而言也是如此。
 - **自动化思维**：用ai辅助编程是你能充分发挥电脑能力，自动化很多日常事务的突破口！
@@ -118,13 +122,15 @@ choco install vscode git python3 mingw nodejs
 
 ## 3. AI编程方法论
 
-<!-- _class: trans -->
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* **方法论** *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
 ## 3.1 能力重点转移
 
-<!-- _class: cols2_ul_sq fglass hugetext -->
+<!-- _class: cols2_ul_sq fglass hugetext navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* **方法论** *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 
 - 理解即可，不需深入原理
 - 增强环境配置能力
@@ -137,7 +143,8 @@ choco install vscode git python3 mingw nodejs
 
 ## 3.2 编写高效提示词
 
-<!-- _class: bq-purple hugetext -->
+<!-- _class: bq-purple hugetext navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* **方法论** *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 
 #### 提示词工程的核心原则
 
@@ -151,7 +158,8 @@ choco install vscode git python3 mingw nodejs
 
 ## 3.3 环境配置能力
 
-<!-- _class: cols-2-46 -->
+<!-- _class: cols-2-46 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* **方法论** *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 
 <div class="ldiv">
 
@@ -188,13 +196,15 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 4. AI编程工具对比与选择
 
-<!-- _class: trans -->
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* **工具对比** *模型选择* *Copilot功能* *实战经验* -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
 ## 4.1 现有的AI编程工具
 
-<!-- _class: cols-2-73 -->
+<!-- _class: cols-2-73 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* **工具对比** *模型选择* *Copilot功能* *实战经验* -->
 <div class=ldiv>
 
 #### 现有主流工具
@@ -217,7 +227,8 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 4.2 工具对比分析
 
-<!-- _class: caption -->
+<!-- _class: caption navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* **工具对比** *模型选择* *Copilot功能* *实战经验* -->
 
 | 工具 | 优势 | 劣势 | 适用场景 |
 |------|------|------|----------|
@@ -232,7 +243,8 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 4.3 为什么我认为GitHub Copilot > Cursor?
 
-<!-- _class: cols-3 -->
+<!-- _class: cols-3 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* **工具对比** *模型选择* *Copilot功能* *实战经验* -->
 
 <div class=ldiv>
 
@@ -274,7 +286,8 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 7. GitHub Copilot功能详解
 
-<!-- _class: cols2_ul_ci fglass -->
+<!-- _class: cols2_ul_ci fglass navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* **Copilot功能** *实战经验* -->
 
 - **Inline Chat**: 编辑器内直接交流
 - **Terminal Inline Chat**: 终端内AI辅助
@@ -287,13 +300,15 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 8. 项目实战经验分享
 
-<!-- _class: trans -->
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
 ## 8.1 小项目实战指南
 
-<!-- _class: fixedtitleA -->
+<!-- _class: fixedtitleA navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
 ### 目标导向的提示词设计
 
@@ -304,13 +319,15 @@ _Chocolatey极其好用，但知道的人不多_
 ```
 
 比过程导向的提示词更有效：
+
 ```
 我想写一个Python脚本，首先需要导入watchdog库，然后创建一个类...
 ```
 
 ## 8.2 小项目自动化案例
 
-<!-- _class: cols-2-46 -->
+<!-- _class: cols-2-46 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <div class=ldiv>
 
 ### 自动化潜力
@@ -330,7 +347,8 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 8.3 大项目实战策略
 
-<!-- _class: rows-2 -->
+<!-- _class: rows-2 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
 <div class="tdiv">
 
@@ -357,7 +375,8 @@ _Chocolatey极其好用，但知道的人不多_
 
 ## 8.4 Polaris项目展示
 
-<!-- _class: fixedtitleB -->
+<!-- _class: fixedtitleB navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
 <div class="div">
 
@@ -374,7 +393,8 @@ Polaris是一个使用AI辅助开发的大型项目，展示了如何在复杂�
 
 ## 8.5 Git与AI集成实践
 
-<!-- _class: cols-2 -->
+<!-- _class: cols-2 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <div class=ldiv>
 
 ### AI辅助Git工作流
@@ -404,7 +424,8 @@ gh copilot explain "path/to/file.js"
 
 ## 8.6 大项目开发一般方法
 
-<!-- _class: bq-green -->
+<!-- _class: bq-green navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
 > ### AI辅助大型项目开发流程
 > 
@@ -420,7 +441,8 @@ gh copilot explain "path/to/file.js"
 
 ## 9. 拓展内容：MCP服务器
 
-<!-- _class: cols-2-64 -->
+<!-- _class: cols-2-64 navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <div class=ldiv>
 
 ### MCP服务器项目
