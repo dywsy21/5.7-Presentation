@@ -18,7 +18,7 @@ footer: \ *AI辅助编程* *GitHub Copilot* *实战经验*
 
 VSCode/Jetbrains + GitHub Copilot
 王思宇
-2025年5月9日
+2025年5月7日
 
 ## 目录
 
@@ -50,6 +50,9 @@ VSCode/Jetbrains + GitHub Copilot
 <div class=ldiv>
 
 #### 环境配置
+
+**请到场的同学们先装一下环境~**
+
 - 代码编辑器安装 (有其一就行，推荐VSCode)
   - Visual Studio Code
   - JetBrains系列IDE
@@ -87,7 +90,7 @@ choco install vscode git python3 mingw nodejs
 <!-- _header: \ ***@AI辅助编程*** *环境配置* **重要意义** *方法论* *工具对比* *模型选择* *Copilot功能* *实战经验* -->
 
 
-<!-- _class: cols-2-64 -->
+<!-- _class: cols-2-64 navbar -->
 <div class=ldiv>
 
 #### 斯坦福2025 AI Index报告
@@ -170,8 +173,8 @@ _Chocolatey极其好用，但知道的人不多_
 
 #### 有些程序得在linux上跑 怎么办？
 
-- VMWare Workstaton (不推荐。gui界面其实没太大意义)
-- Windows Subsystem for Linux, WSL (强烈推荐！与Windows系统无缝衔接，Windows的资源管理器能看WSL2的文件，WSL2也能直接调用Windows的程序)
+- VMWare Workstaton
+- Windows Subsystem for Linux, WSL
 
 </div>
 
@@ -250,67 +253,84 @@ _Chocolatey极其好用，但知道的人不多_
 
 #### 费用优势
 - 学生可免费使用 (教育优惠)
+  - [官网](https://education.github.com/pack)
+  - 学生证/学信网
+  - 等几周的时间
 
 </div>
 
 <div class=mdiv>
 
 #### 技术背景
-- 微软与OpenAI合作
-- 基于强大的GPT模型
-- 持续快速迭代
+- Github Copilot背后公司为微软
+- 持续快速迭代：几天一个版本！
+
 
 </div>
 
 <div class=rdiv>
 
 #### 生态优势
-- 与GitHub深度集成
-- 跨平台IDE支持
-- 丰富的附加功能
+- Github Copilot可以完美融合进微软/Github/VSCode等生态中
+- Cursor基于Vscodium开发，却还跟微软抢市场，[已经被微软开始制裁了](https://blog.stackademic.com/microsoft-suddenly-issues-ban-order-cursor-blocked-from-using-c-c-and-c-extensions-07d6f9fd701e)
 
 </div>
 
-## 6. 如何选择AI模型
+## 5. 如何选择AI模型
+
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* **模型选择** *Copilot功能* *实战经验* -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+## 5. 如何选择AI模型
 
 <!-- _class: navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* **模型选择** *Copilot功能* *实战经验*-->
 
 不同任务适合不同的AI模型：
 
-- **GPT-3.5**: 速度快，适合简单的代码补全
-- **GPT-4**: 更强的理解能力，适合复杂问题
-- **Claude**: 更好的文档生成和代码解释
+- **GPT-4o, o3-mini, o4-mini:** 仅适合文字工作
+- **o1-preview, Claude-3.7-Sonnet, Claude-3.7-Sonnet-Thinking:** 非常适合写代码
 
 参考资料：[*GitHub官方模型对比文档*](https://docs.github.com/en/copilot/using-github-copilot/ai-models/comparing-ai-models-using-different-tasks)
 
-## 7. GitHub Copilot功能详解
+## 6. GitHub Copilot功能详解
+
+<!-- _class: trans navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* **Copilot功能** *实战经验* -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+## 6. GitHub Copilot功能详解
 
 <!-- _class: cols2_ul_ci fglass navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* **Copilot功能** *实战经验* -->
 
+- **自动补全**：写行注释剩下的让AI写！
+- **Next Edit suggestions（NES）**：帮你改你下一个应该改的地方
 - **Inline Chat**: 编辑器内直接交流
 - **Terminal Inline Chat**: 终端内AI辅助
 - **自动生成Commit信息**: 提高提交质量
 - **@workspace**: 工作区上下文访问
 - **@vscode**: IDE功能集成
 - **Copilot Chat**: 更强大的对话功能
-- **Copilot Edit**: AI辅助编辑代码
+- **Copilot Edit**: AI辅助编辑代码+原理
 - **Copilot Agent**: 自动化任务执行
 
-## 8. 项目实战经验分享
+## 7. 项目实战经验分享
 
 <!-- _class: trans navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
-## 8.1 小项目实战指南
+## 7.1 小项目实战指南
 
-<!-- _class: fixedtitleA navbar -->
+<!-- _class: navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
-### 目标导向的提示词设计
+#### 目标导向的提示词设计
 
 ```
 为我创建一个Python脚本，它可以监控指定文件夹中的所有.md文件变化，
@@ -318,24 +338,25 @@ _Chocolatey极其好用，但知道的人不多_
 需要支持命令行参数来指定监控的文件夹和输出路径。
 ```
 
-比过程导向的提示词更有效：
+**比过程导向的提示词更有效：**
 
 ```
 我想写一个Python脚本，首先需要导入watchdog库，然后创建一个类...
 ```
 
-## 8.2 小项目自动化案例
+## 7.2 小项目自动化案例
 
 <!-- _class: cols-2-46 navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <div class=ldiv>
 
-### 自动化潜力
+#### 自动化潜力
 - 文件格式转换
 - 数据处理脚本
 - 日常任务自动化
 - API调用封装
 - 简单的GUI工具
+- ...
 
 </div>
 
@@ -345,15 +366,16 @@ _Chocolatey极其好用，但知道的人不多_
 
 </div>
 
-## 8.3 大项目实战策略
+## 7.3 大项目实战策略
 
-<!-- _class: rows-2 navbar -->
+<!-- _class: cols-2-46 navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
-<div class="tdiv">
+<div class="ldiv">
 
-### 有效的项目管理方法
+#### 有效的项目管理方法
 
+- Git记录版本！
 - 自定义项目整体架构
 - 任务细分
 - 快速定位和解决Bug
@@ -361,43 +383,31 @@ _Chocolatey极其好用，但知道的人不多_
 
 </div>
 
-<div class="bdiv">
+<div class="rdiv">
 
-![#center h:230](https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg)
-
-### AI辅助编程最适合的场景
-- 重复性代码生成
-- 样板代码快速实现
-- 代码重构与优化
-- 单元测试生成
-
-</div>
-
-## 8.4 Polaris项目展示
-
-<!-- _class: fixedtitleB navbar -->
-<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
-
-<div class="div">
-
-#### Polaris: AI辅助开发的实际案例
-
-Polaris是一个使用AI辅助开发的大型项目，展示了如何在复杂项目中有效运用AI编程工具:
-
-1. 项目架构设计
-2. 模块划分与API设计
-3. 代码生成与重构
-4. 测试覆盖
+```bash
+git add *
+git commit -am "..."
+git push
+git pull
+git branch ...
+git checkout ...
+git reset ...
+git reset --hard ...
+git cherry-pick ...
+git log --oneline
+```
 
 </div>
 
-## 8.5 Git与AI集成实践
+
+## 7.4 Git与AI集成实践
 
 <!-- _class: cols-2 navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 <div class=ldiv>
 
-### AI辅助Git工作流
+#### AI辅助Git工作流
 
 - 自动生成有意义的commit信息
 - 根据代码变更撰写PR描述
@@ -422,81 +432,76 @@ gh copilot explain "path/to/file.js"
 
 </div>
 
-## 8.6 大项目开发一般方法
+## 7.5 大项目开发一般方法
 
 <!-- _class: bq-green navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
 
-> ### AI辅助大型项目开发流程
-> 
-> 1. **确定项目架构**：先自行设计整体框架
-> 
-> 2. **任务分解**：将复杂任务拆分为小模块
-> 
-> 3. **增量开发**：逐步实现功能并集成
-> 
-> 4. **测试驱动**：先写测试，再用AI生成实现
-> 
-> 5. **持续优化**：利用AI提出的改进建议
+>AI辅助大型项目开发流程
+>**确定项目架构**：先自行设计整体框架
+>**任务分解**：将复杂任务拆分为小模块
+>**增量开发**：逐步实现功能并集成
+>**测试驱动**：先写测试，再用AI生成实现
+>**持续优化**：利用AI提出的改进建议
 
-## 9. 拓展内容：MCP服务器
+## 8. 拓展内容
 
 <!-- _class: cols-2-64 navbar -->
 <!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
-<div class=ldiv>
+<div class=ldiv>  
 
-### MCP服务器项目
+#### MCP服务器项目
 
-- 使用方法
-  - 安装配置
-  - 常用命令
-  - 最佳实践
+搜索有哪些可用的MCP Server！[百度搜索开放平台](https://sai.baidu.com/mcp)
 
-- 开发过程
-  - AI辅助编程示例
-  - 自动化测试
-
-- 逆向工程应用
-  - IDA Pro集成
-  - 逆向分析
+- [Github MCP Server](https://github.com/github/github-mcp-server)
+- [IDA Pro MCP Server](https://github.com/mrexodia/ida-pro-mcp)
+- [Blender MCP Server](https://github.com/ahujasid/blender-mcp)
+- ...
 
 </div>
 
 <div class=rdiv>
 
-```python
-# MCP Server示例代码
-class MCPServer:
-    def __init__(self, host='0.0.0.0', port=8080):
-        self.host = host
-        self.port = port
-        self.routes = {}
-    
-    def register_route(self, path, handler):
-        self.routes[path] = handler
-    
-    def start(self):
-        # 启动服务器代码
-        print(f"MCP Server running on {self.host}:{self.port}")
-        # ...
-
-# 使用AI生成的路由处理器
-def generate_route_handler(route_spec):
-    # 使用AI根据规格生成路由处理器
-    # ...
-    return handler
-```
-
-GitHub仓库: [github.com/user/mcp-server](https://github.com/user/mcp-server)
+![h:170](pics/mcpsearch.png)
+![](<pics/mcpexample.png>)
 
 </div>
+
+## 8. 拓展内容
+
+<!-- _class: navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
+
+#### 更多的花样！~~个人私货~~
+
+- 让AI生成Pandoc配置 [dywsy21/Pandoc-markdown-to-latex-configuration](https://github.com/dywsy21/Pandoc-markdown-to-latex-configuration)
+- 让AI生成VSCode自定义JS/CSS配置 *彩虹光标你不心动？* [dywsy21/Vscode-Configuration](https://github.com/dywsy21/Vscode-Configuration)
+- 在AI辅助下完成你的第一个VSCode颜色主题！[dywsy21/one-monokai-python-italic-customized](https://github.com/dywsy21/one-monokai-python-italic-customized)
+
+
+## 8. 拓展内容
+
+<!-- _class: navbar -->
+<!-- _header: \ ***@AI辅助编程*** *环境配置* *重要意义* *方法论* *工具对比* *模型选择* *Copilot功能* **实战经验** -->
+
+#### 不止写代码……
+
+这份PPT本身的制作也有AI很大程度的参与！*你知道吗，这份PPT是用markdown写的*
+[Github链接：dywsy21/5.7-Presentation](https://github.com/dywsy21/5.7-Presentation)
+
+<br>
+
+还有一些神奇的小技巧：
+- 手头上有份文档想直观地展示给别人？拿AI转成html！
+- ......
 
 ---
 
 <!-- _class: lastpage -->
 <!-- _footer: "" -->
 
-###### 谢谢观看！ 
+###### 欢迎联系！ 
 
 <div class="icons">
 - <i class="fa-solid fa-envelope"></i>
